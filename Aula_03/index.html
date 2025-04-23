@@ -1,59 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Teste</title>
+    <title>Aula 3</title>
 </head>
-<body bgcolor="">
+<body bgcolor="GREEN" text="white">
+    <!--Objetivos da aula de hoje-->
+    <!--Criar códigos HTML avançados e fazer ligações entre páginas!-->
     <center>
-        <font face="Verdana" size="10">
-            <h1>Minha primeira Pagina</h1>
+        <font face="Arial" size="10" color="white">
+            <h1>AULA 03</h1>
         </font>
     </center>
+    <!--Tag a-->
+    <a href="http://www.savewalterwhite.com/" target="_blank">Essa tag serve para criar links entre paginas</a>
+    <!--O href Indica o endereço (URL) de uma página que poderá ser acessada por esse link-->
+    <br>
+    <br>
+    <br>
+    <a href="http://www.savewalterwhite.com/" target="_self">Essa tag serve para criar links entre paginas</a>
+    <!--O target indica a janela ou local em que o link deverá ser aberto: _blank(nova janela). _self(mesma janela -->
+    <br>
+    <br>
+    <br>
+    <iframe src="http://www.savewalterwhite.com/" width="1500px" height="500px">teste</iframe>
+    <!--O iframe permite que você crie frames de outros sites dentro do seu, para mostrar o conteudo!-->
     <br>
     <br>
     <br>
     <center>
-    <font face="Calibri" >
-        <h3>Nome: Mateus André</h3>
-        <h3>Idade: 20 Anos</h3>
-        <h3>Meu País: Brasil</h3>     
-    </font>
+        <font face="Arial" size="5">
+            <h1>LISTAS</h1>
+        </font>
+
+        <P>
+            Uma forma de exibir várias informações na tela é por meio de listas. A seguir são apresentados dois tipos de listas que você pode utilizar nas suas páginas:
+        </P>
     </center>
-    <br>
-    <br>
-    <br>
-    <center>
+
     <font face="Arial">
-        <h3>Uma coisa que que eu gosto:</h3>
+    <h1 align="left">Listas Ordenadas(ol):</h1>
+    <p>Nesse tipo de lista, os itens possuem uma ordem, pode ser a prioridade de cada um, o preço, a data que foram inseridos na página. Cabe a você a organização deles, utilizando os atributos:
+
+        start – Define a partir de qual número a listagem começa
+        type – Tipos de caracteres ordenados: A, a, I, i, 1:
+        </p>
+    <h3>Exemplo:</h3>
+        <ol type="1">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ol>
+        <ol type="A">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ol>
+        <ol type="I">
+            <li>teste</li>
+            <li>teste</li>
+            <li>teste</li>
+        </ol>
+        <br>
+        <br>
+        <br>
+    <h1 align="right">Listas não ordenadas:</h1>
+        <p></p>
     </font>
-    <img src="https://i.pinimg.com/originals/08/48/74/08487475110afad7c14b39136ecfbd34.png" alt="Palmeiras" width="400px" height="400px">
-    <h3>O Maior Campeão do Brasil</h3>
-    </center>
-    <br>
-    <br>
-    <br>
-    <center>
-        <font face="Arial">
-        <h3>Um jogo que eu gosto:</h3>
-        </font>
-        <br>
-        <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/kfYEiTdsyas?si=PYXkNn3oHOCS4qiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-        <font face="Arial">
-            <h3>Uma musica que eu gosto:</h3>
-        </font>
-        <br>
-        <br>
-        <a href="https://youtu.be/ZpUYjpKg9KY?si=ozSFHJHBTmVNZK0o">Break Stuff - Limp Bizkit</a>
-
-        <font face="Arial">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur in illo sed exercitationem. Dolor quibusdam ad assumenda ipsum repellendus alias architecto eum aut dolore dicta rerum, quia possimus, quam dolores.</p>
-        </font>
-    </center>
-
 
 </body>
 </html>
